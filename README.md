@@ -13,7 +13,7 @@ Use Keras if you need a deep learning library that:
 
 - Allows for easy and fast prototyping (through user friendliness, modularity, and extensibility).
 - Supports both convolutional networks and recurrent networks, as well as combinations of the two.
-- Runs seamlessly on CPU and GPU.
+- Runs seamlessly on CPU and GPU(Graphics Processing Unit).
 
 Read the documentation at [Keras.io](https://keras.io).
 
