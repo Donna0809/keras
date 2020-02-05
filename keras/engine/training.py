@@ -1712,8 +1712,10 @@ class Model(Network):
                         yield ({'input_1': x1, 'input_2': x2}, {'output': y})
 
         model.fit_generator(generate_arrays_from_file('/my_file.txt'),
-                            steps_per_epoch=10000, epochs=10)
+                            steps_per_epoch=10000, epochs=10
         ```
+        # model.fit:
+            model .fit_generator is used for the fitting of the huge dataset into the memory 
         """
         return training_generator.fit_generator(
             self, generator,
